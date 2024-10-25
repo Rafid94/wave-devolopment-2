@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Learn HTML</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend><h3>Personal Deatels</h3></legend>
+            <label>Name</label><br>
+            <input type="text" id="name"><br>
+            <label>Age</label><br>
+            <input type="text" id="age"><br>
+            <lable>password</lable><br>
+            <input type="text" id="password"><br>
+            <label for="Birthy">Birthday</label>
+            <input type="Date" id="Birthy" name="Birtday">
+            <button>Submit</button>
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend><h3> which isn your favarite language</h3></legend>
+            <input type="radio" id="html" name="language" value="html">
+            <label for="html">Html</label><br>
+            <input type="radio" id="css" name="language" value="css">
+            <label for="css">Css</label><br>  
+        </fieldset>
+    </form>
+    <label>Do the sum</label>
+    <form action="/action_page.php"
+        oninput="x.value=parseInt(a.value) +parseInt(b.value)">
+        <input type="number" id="a" name="a">+<input type="number" id="b" name="b">=<output name="x"for="a b"></output>
+    </form>
+    <form>
+        <label>Choose a IPL team</label>
+        <select name="team" id="team">
+            <option value="csk">CSK</option>
+            <option value="rcb">RCB</option>
+            <option value="kkr">KKR</option>
+        </select>
+    </form>
+</body>
